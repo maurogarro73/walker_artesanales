@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 :root {
   --color-text: #0a0a0a;
@@ -9,6 +9,7 @@
   --color-footer: #ff6b6b;
   --color-diagonal: #ff6b6b;
   --color-rojo: #af1013;
+  --color-naranja: #ff8025;
   --radius-line: 30px;
   --width-line: 40%;
   --height-line: 7px;
@@ -17,7 +18,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar-brand img {
@@ -39,7 +40,12 @@
   font-weight: 700;
   font-size: 60px;
   color: #ffff;
-  background-image: linear-gradient(270deg, #b82715 0%, #d9473d 50%, #ff6b6b 100%);
+  background-image: linear-gradient(
+    270deg,
+    #b82715 0%,
+    #d9473d 50%,
+    #ff6b6b 100%
+  );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   color: #fff;
@@ -49,6 +55,11 @@
 .footer_container {
   background-color: var(--color-secondary);
 }
+
+.pDerechos {
+  color: #F2E5E5;
+}
+
 footer img {
   widows: 30px;
   height: 30px;
@@ -194,3 +205,82 @@ footer img {
 }
 
 /********************** Nuestros Valores **********************/
+.nuestrosValores {
+  height: 500px;
+}
+
+.tituloValores {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 58px;
+}
+
+.valores {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.valoresDesc {
+  width: 40%;
+  padding: 30px;
+}
+
+.valoresDesc h3 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.valoresDesc p {
+  line-height: 40px;
+  font-size: 15px;
+}
+
+.tituloIn{
+  color: var(--color-secondary);
+}
+
+.line1 {
+  background-color: var(--color-secondary);
+  height: 7px;
+  border-radius: 30px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.tituloCal{
+  color: var(--color-lineY);
+}
+
+.line2 {
+  background-color: var(--color-lineY);
+  height: 7px;
+  border-radius: 30px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.tituloCompro{
+  color: var(--color-naranja);
+}
+
+.line3 {
+  background-color: var(--color-naranja);
+  height: 7px;
+  border-radius: 30px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.tituloCompa{
+  color: var(--color-rojo);
+}
+
+.line4 {
+  background-color: var(--color-rojo);
+  height: 7px;
+  border-radius: 30px;
+  width: 50%;
+  margin-bottom: 20px;
+}
