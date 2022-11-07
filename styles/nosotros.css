@@ -57,7 +57,7 @@
 }
 
 .pDerechos {
-  color: #F2E5E5;
+  color: #f2e5e5;
 }
 
 footer img {
@@ -185,6 +185,9 @@ footer img {
   font-size: 20px;
 }
 
+.and {
+}
+
 .vision {
   width: 50%;
   padding: 40px;
@@ -206,11 +209,11 @@ footer img {
 
 /********************** Nuestros Valores **********************/
 .nuestrosValores {
-  height: 500px;
+  height: 700px;
 }
 
 .tituloValores {
-  margin-top: 50px;
+  margin-top: 80px;
   font-weight: 700;
   font-size: 58px;
 }
@@ -237,7 +240,7 @@ footer img {
   font-size: 15px;
 }
 
-.tituloIn{
+.tituloIn {
   color: var(--color-secondary);
 }
 
@@ -249,7 +252,7 @@ footer img {
   margin-bottom: 20px;
 }
 
-.tituloCal{
+.tituloCal {
   color: var(--color-lineY);
 }
 
@@ -261,7 +264,7 @@ footer img {
   margin-bottom: 20px;
 }
 
-.tituloCompro{
+.tituloCompro {
   color: var(--color-naranja);
 }
 
@@ -273,7 +276,7 @@ footer img {
   margin-bottom: 20px;
 }
 
-.tituloCompa{
+.tituloCompa {
   color: var(--color-rojo);
 }
 
@@ -283,4 +286,192 @@ footer img {
   border-radius: 30px;
   width: 50%;
   margin-bottom: 20px;
+}
+
+/********************* Media Query *********************/
+@media screen and (max-width: 1399px) {
+  .titulo h1 {
+    font-size: 50px;
+  }
+
+  /********** Nosotros **********/
+  .descripcion {
+    padding-right: 20px;
+  }
+
+  .descripcion h2 {
+    font-size: 50px;
+  }
+
+  .descripcion p {
+    padding-right: 20px;
+  }
+
+  .imagen img {
+    width: 500px;
+  }
+
+  /********** Expansion **********/
+  .imagenExpand img {
+    width: 500px;
+  }
+
+  .descExpand {
+    padding-left: 20px;
+  }
+
+  .descExpand p {
+    padding-left: 20px;
+  }
+
+  .descExpand h2 {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .titulo h1 {
+    font-size: 40px;
+  }
+
+  /********** Nosotros **********/
+  .descripcion h2 {
+    font-size: 40px;
+  }
+
+  .descripcion p {
+    padding: 5px;
+  }
+
+  /********** Expansion **********/
+  .descExpand p {
+    padding: 5px;
+  }
+
+  .descExpand h2 {
+    font-size: 40px;
+  }
+
+  .imagenExpand img {
+    width: 500px;
+  }
+
+  /********* Mision - Vision *********/
+  .tituloMision {
+    font-size: 40px;
+  }
+
+  .tituloVision {
+    font-size: 40px;
+  }
+
+  .mision p{
+    font-size: 17px;
+  }
+
+  .vision p{
+    font-size: 17px;
+  }
+
+  /********* Nuestros Valores *********/
+  .tituloValores{
+    font-size: 40px;
+  }
+
+  .valores {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .nosotros {
+    flex-wrap: wrap;
+  }
+
+  .descripcion {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .descripcion h2 {
+    text-align: center;
+  }
+
+  .linea {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .descripcion p {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .imagen img {
+    width: 100%;
+  }
+
+  .expansion {
+    flex-wrap: wrap-reverse;
+  }
+
+  .imagenExpand img {
+    width: 100%;
+  }
+
+  .descExpand {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .descExpand h2 {
+    text-align: center;
+  }
+
+  .lineaExpand {
+    padding: 0;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .descExpand p {
+    width: 100%;
+    text-align: justify;
+  }
+
+  /********* Mision - Vision *********/
+  .mv {
+    height: 100%;
+  }
+
+  .mv-desc {
+    flex-direction: column;
+  }
+
+  .mision, .vision{
+    width: 100%;
+    text-align: center;
+  }
+
+  .vision {
+    margin-bottom: 40px;
+  }
+
+  /********* Nuestros Valores *********/
+  .nuestrosValores {
+    height: 100%;
+  }
+
+  .valores {
+    flex-direction: column;
+  }
+
+  .valoresDesc {
+    padding: 0;
+    margin-bottom: 30px;
+  }
 }
