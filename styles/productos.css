@@ -71,7 +71,7 @@ footer img {
   background: #fefefe;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.25);
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
 
 .acordeon {
@@ -140,7 +140,7 @@ footer img {
 
 /* Muestra la parte de contenido cuando está activa. Establece la altura */
 .acordeon .contenedor.activa .contenido {
-  height: 150px;
+  height: 650px;
 }
 
 /* Cambia de signo positivo a negativo una vez activado */
@@ -150,7 +150,23 @@ footer img {
   font-weight: 300;
 }
 
+.grupo-img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.imagen-producto {
+  width: 300px;
+}
+
 /********************** MediaQuery **********************/
+@media screen and (max-width: 1199px) {
+  .acordeon .contenedor.activa .contenido {
+    height: 950px;
+  }
+}
 @media screen and (max-width: 991px) {
   /********************** Titulo **********************/
   .titulo {
@@ -165,6 +181,22 @@ footer img {
     border-radius: 30px;
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .acordeon .contenedor.activa .contenido {
+    height: 1850px;
+  }
+
+  .imagen-producto {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .imagen-producto {
+    margin: 0 auto;
+    width: 300px;
+    margin-right: 60px;
   }
 }
 
