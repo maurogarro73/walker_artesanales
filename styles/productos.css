@@ -172,7 +172,12 @@ footer img {
   .acordeon .contenedor.activa .contenido {
     height: 950px;
   }
+
+  .acordeon .contenedor.activa .contenidoCatalogo {
+    height: 2500px;
+  }
 }
+
 @media screen and (max-width: 991px) {
   /********************** Titulo **********************/
   .titulo {
@@ -190,11 +195,15 @@ footer img {
   }
 
   .acordeon .contenedor.activa .contenido {
-    height: 1850px;
+    height: 800px;
+  }
+
+  .acordeon .contenedor.activa .contenidoCatalogo {
+    height: 2000px;
   }
 
   .imagen-producto {
-    width: 200px;
+    width: 250px;
   }
 }
 
@@ -203,6 +212,14 @@ footer img {
     margin: 0 auto;
     width: 300px;
     margin-right: 60px;
+  }
+
+  .acordeon .contenedor.activa .contenido {
+    height: 1500px;
+  }
+
+  .acordeon .contenedor.activa .contenidoCatalogo {
+    height: 4800px;
   }
 }
 
