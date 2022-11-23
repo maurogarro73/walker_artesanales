@@ -119,7 +119,8 @@ footer img {
 }
 
 /* Oculta el contenido (altura: 0), disminuye el tamaño de la fuente, justifica el texto y añade la transición */
-.acordeon .contenido {
+.acordeon .contenido,
+.contenidoCatalogo {
   position: relative;
   background: white;
   height: 0;
@@ -141,6 +142,11 @@ footer img {
 /* Muestra la parte de contenido cuando está activa. Establece la altura */
 .acordeon .contenedor.activa .contenido {
   height: 650px;
+}
+
+/* Muestra la parte de contenido cuando está activa. Establece la altura */
+.acordeon .contenedor.activa .contenidoCatalogo {
+  height: 1800px;
 }
 
 /* Cambia de signo positivo a negativo una vez activado */
