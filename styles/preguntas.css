@@ -197,6 +197,7 @@ footer img {
 @media screen and (max-width: 768px) {
   .acordeon .contenedor.activa .contenido {
     height: 100%;
+    padding-left: 0;
   }
 }
 
