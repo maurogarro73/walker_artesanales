@@ -239,11 +239,13 @@ footer img {
   }
 
   .acordeon .contenedor.activa .contenido {
-    height: 2600px;
+    /* height: 2600px; */
+    height: 100%;
   }
 
   .acordeon .contenedor.activa .contenidoCatalogo {
-    height: 7200px;
+    /* height: 7200px; */
+    height: 100%;
   }
 
   .imagen-producto {
