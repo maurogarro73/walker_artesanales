@@ -113,7 +113,7 @@ footer img {
   color: black;
   position: absolute;
   top: 60%;
-  right: 60px;
+  right: 15px;
   font-size: 50px;
   font-weight: 300;
   transform: translateY(-50%);
@@ -239,11 +239,20 @@ footer img {
   }
 
   .acordeon .contenedor.activa .contenido {
-    height: 1500px;
+    height: 2600px;
   }
 
   .acordeon .contenedor.activa .contenidoCatalogo {
-    height: 4800px;
+    height: 7200px;
+  }
+
+  .imagen-producto {
+    width: 95%;
+  }
+
+  .acordeon .contenido,
+  .contenidoCatalogo {
+    padding-left: 45px;
   }
 }
 
