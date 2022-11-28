@@ -83,6 +83,9 @@ html {
     border-bottom-right-radius: 10px 10px;
     border-bottom-left-radius: 10px 10px;
   }
+  .nav-item a {
+    color: #fff !important;
+  }
 }
 
 @media all and (max-width: 768px) {

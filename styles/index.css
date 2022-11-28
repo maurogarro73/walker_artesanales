@@ -96,6 +96,10 @@
     border-bottom-left-radius: 10px 10px;
   }
 
+  .nav-item a {
+    color: #fff !important;
+  }
+
   .gallery-container {
     width: 50% !important;
   }
@@ -132,11 +136,6 @@
   body {
     font-size: 0.7rem;
   }
-
-  .nav-item a {
-    color: #fff !important;
-  }
-
   .landing {
     display: flex !important;
     flex-direction: column-reverse;
