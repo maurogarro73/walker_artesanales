@@ -26,6 +26,11 @@
   width: 90px;
 }
 
+.nav-item a:hover {
+  color: #af1013 !important;
+  border-color: #000;
+}
+
 .active {
   color: var(--color-rojo) !important;
 }
