@@ -1,441 +1,437 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-
 :root {
-    --color-text: #0a0a0a;
-    --color-principal: #ffff;
-    --color-secondary: #FF6B6B;
-    --color-lineY: #FCE027;
-    --color-background: #ffff;
-    --color-footer: #FF6B6B;
-    --color-diagonal: #FF6B6B;
-    --radius-line: 30px;
-    --width-line: 40%;
-    --height-line: 7px;
+  --color-text: #0a0a0a;
+  --color-principal: #ffff;
+  --color-secondary: #ff6b6b;
+  --color-lineY: #fce027;
+  --color-background: #ffff;
+  --color-footer: #ff6b6b;
+  --color-diagonal: #ff6b6b;
+  --radius-line: 30px;
+  --width-line: 40%;
+  --height-line: 7px;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 /********************** Navbar **********************/
 .navbar-brand img {
-    width: 90px;
+  width: 90px;
 }
 
 .nav-item a:hover {
-    color: #AF1013 !important;
-    border-color: #000;
+  color: #af1013 !important;
+  border-color: #000;
 }
 
 /****************************************************/
 .landing {
-    padding-top: 10rem;
-    background-color: white;
+  padding-top: 10rem;
+  background-color: white;
 }
 
 .diagonal_back {
-    padding-top: 10%;
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(to bottom right, #fff 50%, #FF6B6B 50%);
+  padding-top: 10%;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, #fff 50%, #ff6b6b 50%);
 }
 
-@media all and (max-width:768px) {
-    .diagonal_back {
-        height: 100%;
-    }
+@media all and (max-width: 768px) {
+  .diagonal_back {
+    height: 100%;
+  }
 }
 
 .line-yellow {
-    background-color: var(--color-lineY) !important;
-    height: 7px;
-    border-radius: 30px;
-    width: 40%;
+  background-color: var(--color-lineY) !important;
+  height: 7px;
+  border-radius: 30px;
+  width: 40%;
 }
 
 /********************** Responsive 1200px **********************/
-@media all and (max-width:1400px) {
-    .contact {
-        width: 10rem !important;
-    }
+@media all and (max-width: 1400px) {
+  .contact {
+    width: 10rem !important;
+  }
 
-    .aboutUs_banner_container {
-        display: flex !important;
-        justify-content: center !important;
-    }
+  .aboutUs_banner_container {
+    display: flex !important;
+    justify-content: center !important;
+  }
 
-    .aboutUs_text_container p {
-        font-size: 1rem !important;
-    }
+  .aboutUs_text_container p {
+    font-size: 1rem !important;
+  }
 
-    .aboutUs_banner_container img {
-        height: 100%;
-        background-size: cover;
-    }
+  .aboutUs_banner_container img {
+    height: 100%;
+    background-size: cover;
+  }
 
-    .card {
-        width: 18rem !important;
-        margin: 1rem 0 1rem 0;
-    }
+  .card {
+    width: 18rem !important;
+    margin: 1rem 0 1rem 0;
+  }
 
-    .gallery-item {
-        width: 15rem !important;
-        height: 15rem !important;
-    }
+  .gallery-item {
+    width: 15rem !important;
+    height: 15rem !important;
+  }
 }
 
 /***************************************************************/
 
-/********************** Responsive 1000px **********************/
-@media all and (max-width:1000px) {
-    .gallery-container {
-        width: 50% !important;
-    }
+/********************** Responsive 991px **********************/
+@media all and (max-width: 991px) {
+  .navbar {
+    background-color: rgb(33 37 41) !important;
+    border-bottom-right-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+  }
 
-    .gallery-item {
-        width: 15rem !important;
-        height: 15rem !important;
-    }
+  .gallery-container {
+    width: 50% !important;
+  }
 
-    .card {
-        width: 13rem !important;
-        margin: 1rem 0 1rem 0;
-    }
-    
-    .smooth_scroll {
-        display: none !important;
-    }
-    
-    .aboutUs_banner_container img {
-        height: 500px;
-        background-size: cover;
-    }
-    .aboutUs_text_container{
-        margin-top: 1rem !important;    
-    }
-    .aboutUs_text_container p {
-        font-size: 0.8rem !important;
+  .gallery-item {
+    width: 15rem !important;
+    height: 15rem !important;
+  }
 
-    }
+  .card {
+    width: 13rem !important;
+    margin: 1rem 0 1rem 0;
+  }
+
+  .smooth_scroll {
+    display: none !important;
+  }
+
+  .aboutUs_banner_container img {
+    height: 500px;
+    background-size: cover;
+  }
+  .aboutUs_text_container {
+    margin-top: 1rem !important;
+  }
+  .aboutUs_text_container p {
+    font-size: 0.8rem !important;
+  }
 }
 
 /**************************************************************/
 /********************** Responsive 768px **********************/
-@media all and (max-width:768px) {
-    body {
-        font-size: 0.7rem;
-    }
+@media all and (max-width: 768px) {
+  body {
+    font-size: 0.7rem;
+  }
 
-    .navbar {
-        background-color: rgb(33 37 41) !important;
-        border-bottom-right-radius: 10px 10px;
-        border-bottom-left-radius: 10px 10px;
-    }
+  .nav-item a {
+    color: #fff !important;
+  }
 
-    .nav-item a {
-        color: #fff !important;
-    }
+  .landing {
+    display: flex !important;
+    flex-direction: column-reverse;
+    padding-top: 6rem;
+  }
 
-    .landing {
-        display: flex !important;
-        flex-direction: column-reverse;
-        padding-top: 6rem;
-    }
+  .inf {
+    padding-bottom: 4rem;
+  }
 
-    .inf {
-        padding-bottom: 4rem;
-    }
+  .inf p {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
 
-    .inf p {
-        padding-top: 1rem !important;
-        padding-bottom: 1rem !important;
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
-    }
+  .inf span img {
+    width: 7%;
+  }
 
-    .inf span img {
-        width: 7%;
-    }
+  .contactUs_titleContainer {
+    margin: 0 0 0 0 !important;
+    text-align: center;
+  }
 
-    .contactUs_titleContainer {
-        margin: 0 0 0 0 !important;
-        text-align: center;
-    }
+  .form_networks {
+    display: none !important;
+  }
 
-    .form_networks {
-        display: none !important;
-    }
+  .banner_food {
+    display: flex;
+    justify-content: center;
+  }
 
-    .banner_food {
-        display: flex;
-        justify-content: center
-    }
+  .banner_food img {
+    width: 90%;
+  }
 
-    .banner_food img {
-        width: 90%;
-        ;
-    }
+  .contact {
+    display: none;
+  }
 
-    .contact {
-        display: none;
-    }
+  .card_container {
+    padding-top: 1rem !important;
+    align-items: center;
+    flex-direction: column;
+  }
 
-    .card_container {
-        padding-top: 1rem !important;
-        align-items: center;
-        flex-direction: column;
-    }
+  .card {
+    width: 20rem !important;
+    margin: 1rem 0 1rem 0;
+  }
 
-    .card {
-        width: 20rem !important;
-        margin: 1rem 0 1rem 0;
-    }
+  .aboutUs_text_container p {
+    font-size: 1rem !important;
+  }
 
-    .aboutUs_text_container p {
-        font-size: 1rem !important;
-    }
+  .aboutUs_container {
+    display: inline !important;
+  }
 
-    .aboutUs_container {
-        display: inline !important;
-    }
+  .aboutUs_title {
+    display: flex;
+    justify-content: center;
+  }
 
-    .aboutUs_title {
-        display: flex;
-        justify-content: center;
-    }
+  .aboutUs_title p {
+    margin: 1rem 0.5rem 0rem 0rem !important;
+  }
 
-    .aboutUs_title p {
-        margin: 1rem 0.5rem 0rem 0rem !important;
-    }
+  .aboutUs_line {
+    display: flex !important;
+  }
 
-    .aboutUs_line {
-        display: flex !important;
-    }
+  .aboutUs_line .line-yellow {
+    width: 80%;
+    margin-left: 0rem !important;
+  }
 
-    .aboutUs_line .line-yellow {
-        width: 80%;
-        margin-left: 0rem !important;
-    }
+  .toProducts_container {
+    display: flex;
+    justify-content: center;
+  }
 
-    .toProducts_container {
-        display: flex;
-        justify-content: center;
-    }
+  .toProducts {
+    position: initial !important;
+    z-index: 100;
+    width: 80%;
+  }
 
-    .toProducts {
-        position: initial !important;
-        z-index: 100;
-        width: 80%;
-    }
+  .aboutUs_banner_container {
+    display: flex !important;
+    justify-content: center !important;
+  }
 
-    .aboutUs_banner_container {
-        display: flex !important;
-        justify-content: center !important;
-    }
+  .aboutUs_banner_container img {
+    width: 100%;
+    background-size: cover;
+  }
 
-    .aboutUs_banner_container img {
-        width: 100%;
-        background-size: cover;
-    }
+  .form_container {
+    width: 100% !important;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem 0rem 0rem 0rem !important;
+    border-radius: 25px 25px 0px 0px !important;
+  }
 
-    .form_container {
-        width: 100% !important;
-        flex-direction: column;
-        align-items: center;
-        margin: 0rem 0rem 0rem 0rem !important;
-        border-radius: 25px 25px 0px 0px !important;
-    }
+  .inf {
+    border-radius: 25px 25px 0px 0px !important;
+    width: 100% !important;
+  }
 
-    .inf {
-        border-radius: 25px 25px 0px 0px !important;
-        width: 100% !important;
-    }
+  .w-50 {
+    width: 100% !important;
+  }
 
-    .w-50 {
-        width: 100% !important;
-    }
+  .form_subtitle {
+    margin: 0rem 0rem 0rem 0.5rem !important;
+  }
 
-    .form_subtitle {
-        margin: 0rem 0rem 0rem 0.5rem !important;
-    }
+  .form-control {
+    width: 90vw;
+  }
 
-    .form-control {
-        width: 90vw;
-    }
+  textarea {
+    width: 90%;
+    height: 300px;
+  }
 
-    textarea {
-        width: 90%;
-        height: 300px;
-    }
+  .smooth_scroll {
+    display: none !important;
+  }
 
-    .smooth_scroll {
-        display: none !important;
-    }
+  .form-submit {
+    justify-content: center !important;
+  }
 
-    .form-submit {
-        justify-content: center !important;
-    }
+  .footer_container {
+    justify-content: center !important;
+    display: block !important;
+  }
 
-    .footer_container {
-        justify-content: center !important;
-        display: block !important;
-    }
+  .footer_networks {
+    display: flex;
+    flex-direction: row !important;
+  }
 
-    .footer_networks {
-        display: flex;
-        flex-direction: row !important;
-    }
-
-    .footer_networks a {
-        padding-top: 0rem !important;
-        padding-bottom: 0rem !important;
-        padding-left: 2rem;
-    }
-    .gallery-container {
-        width: 100% !important;
-    }
-
+  .footer_networks a {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    padding-left: 2rem;
+  }
+  .gallery-container {
+    width: 100% !important;
+  }
 }
 
 /***************************************************************/
 
 .text-bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .contact {
-    box-shadow: 5px 5px black;
-    transition: 200ms;
-    width: 50% !important;
+  box-shadow: 5px 5px black;
+  transition: 200ms;
+  width: 50% !important;
 }
 
 .contact a {
-    text-decoration: none;
-    color: #AF1013;
-    display: block;
-    transition: 300ms;
+  text-decoration: none;
+  color: #af1013;
+  display: block;
+  transition: 300ms;
 }
 
 .contact:hover {
-    background-color: #AF1013;
+  background-color: #af1013;
 }
 
 .contact a:hover {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .toProducts {
-    background-color: var(--color-background);
-    box-shadow: 5px 5px black;
-    transition: 200ms;
-    right: 17%;
-    position: absolute;
-    bottom: 0%;
-    z-index: 100;
-    margin-bottom: 3rem;
+  background-color: var(--color-background);
+  box-shadow: 5px 5px black;
+  transition: 200ms;
+  right: 17%;
+  position: absolute;
+  bottom: 0%;
+  z-index: 100;
+  margin-bottom: 3rem;
 }
 
 .toProducts a {
-    text-decoration: none;
-    color: #AF1013;
-    width: 100% !important;
-    height: 100% !important;
-    display: block;
-    transition: 300ms;
+  text-decoration: none;
+  color: #af1013;
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+  transition: 300ms;
 }
 
 .toProducts:hover {
-    background-color: #AF1013;
+  background-color: #af1013;
 }
 
 .toProducts a:hover {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .card-body {
-    padding: 0 !important;
+  padding: 0 !important;
 }
 
 .inf {
-    background-color: var(--color-secondary);
+  background-color: var(--color-secondary);
 }
 
 .w-80 {
-    width: 80%;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.25);
+  width: 80%;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.25);
 }
 
 .ml-9 {
-    margin-left: 12rem;
+  margin-left: 12rem;
 }
 
 .shadow {
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 textarea {
-    border: none;
-    overflow: auto;
-    resize: none;
+  border: none;
+  overflow: auto;
+  resize: none;
 }
 
 .form-submit button {
-    transition: 300ms;
-    color: #AF1013;
+  transition: 300ms;
+  color: #af1013;
 }
 
 .form-submit button:hover {
-    background-color: #AF1013;
-    color: white;
+  background-color: #af1013;
+  color: white;
 }
 
 footer {
-    background-color: var(--color-secondary);
+  background-color: var(--color-secondary);
 }
 
 footer img {
-    widows: 30px;
-    height: 30px;
+  widows: 30px;
+  height: 30px;
 }
 
 .zoom {
-    transition: 300ms;
+  transition: 300ms;
 }
 
 .zoom:hover {
-    transform: scale(1.1);
-    border-color: #000;
+  transform: scale(1.1);
+  border-color: #000;
 }
 
 /********************** SmoothScroll **********************/
 html {
-    scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
 }
 
 .smooth_scroll {
-    position: fixed;
-    top: 50%;
-    left: 90%;
-    display: inline-block;
+  position: fixed;
+  top: 50%;
+  left: 90%;
+  display: inline-block;
 }
 
 .smooth_scrollWhite {
-    display: none;
-    position: absolute;
-    right: 0%;
-    top: 8%;
-    z-index: 99;
+  display: none;
+  position: absolute;
+  right: 0%;
+  top: 8%;
+  z-index: 99;
 }
 
 .smooth_scroll:hover .smooth_scrollWhite {
-    display: inline;
+  display: inline;
 }
 
 .smooth_scroll:hover .smooth_scrollRed {
-    opacity: 0;
+  opacity: 0;
 }
 
 /**********************************************************/
